@@ -131,12 +131,12 @@
                                 </a> </h6>
                             <small class="text-muted"><?php echo $product['description'];?></small>
                         </div>
-                        <span class="text-muted">$<?php echo $product['price'];?></span>
+                        <span class="text-muted"><?php echo $product['price'];?>P</span>
                     </li>
                     <?php endforeach; ?>
                     <li class="list-group-item d-flex justify-content-between">
-                        <span>Всего (USD)</span>
-                        <strong>$<?php echo $totalPrice;?></strong>
+                        <span>Всего (RUB)</span>
+                        <strong><?php echo $totalPrice;?>Р</strong>
                     </li>
                 </ul>
                 <!-- Cart -->
